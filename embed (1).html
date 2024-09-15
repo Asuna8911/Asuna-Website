@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animiertes Menü</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#" class="menu-link" data-target="about">Ticket</a></li>
+                <li><a href="#" class="menu-link" data-target="contact">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="content">
+            <h1>Ticket</h1>
+            <p>Hier kommen später alle Ticket Commands hin.</p>
+        </section>
+        <section id="contact" class="content">
+            <h1>Discord:</h1>
+            <p><a href="https://discord.gg/m3knFWSsvW" target="_blank">https://discord.gg/m3knFWSsvW</a></p>
+        </section>
+    </main>
+
+    <div class="container">
+
+        <!-- Animierter Button -->
+        <button id="animatedButton" class="animated-button">zurück</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
